@@ -7,7 +7,7 @@ click.addEventListener("click", () => {
     const result = document.createElement("p");
     // result.innerText = input.value
     // content.appendChild(result)
-    const deneme = function () {
+    const writeNumbers = function () {
       if (i % 2 == 0) {
         result.classList = "red";
       } else {
@@ -18,6 +18,6 @@ click.addEventListener("click", () => {
       content.appendChild(result);
     };
 
-    deneme();
+    writeNumbers();
   }
 });
